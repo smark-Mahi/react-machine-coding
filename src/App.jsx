@@ -1,5 +1,6 @@
 import "./App.css";
 import Accordian from "./components/Accordian/accordian";
+import InfiniteScroll from "./components/InfiniteScroll/index";
 import PhoneOtpForm from "./components/OTP/phone-login";
 import Starrating from "./components/StarRating/starrating";
 import Typeahead from "./components/Typehead/typeahead";
@@ -12,6 +13,7 @@ function App() {
       <Starrating />
       <Accordian />
       <Typeahead />
+      <InfiniteScroll />
     </div>
   );
 }
