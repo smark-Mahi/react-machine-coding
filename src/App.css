@@ -1,0 +1,65 @@
+.App {
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.star {
+  font-size: 32px;
+}
+
+.selected {
+  color: yellow;
+}
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordian {
+  width: 500px;
+}
+
+.item {
+  background: #f0eb31;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: #85662b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.notshow {
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.show {
+  height: auto;
+  max-height: 999px;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
